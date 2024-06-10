@@ -1,4 +1,4 @@
-#How to use
+# How to use
 
 When you open kali.bat the commands will be the same as a regular windows command prompt but if you do the command "dev /on" then you can use kali linux commands then if you do "dev /off it will turn off dev mode"
 
