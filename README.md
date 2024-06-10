@@ -14,3 +14,43 @@ If you skid this I dont really care but for the bare minimum please just star th
 
 https://github.com/epiclyrizzy/wintokali/assets/141612089/78f17de4-cf8c-4de1-90f9-ce73274ebf03
 
+# Commands
+
+ls
+pwd
+cd
+clear
+cat
+rm
+mkdir
+rmdir
+cp
+mv
+touch
+echo
+head
+tail
+grep
+find
+ps
+kill
+uname
+whoami
+hostname
+uptime
+df
+free
+top
+history
+sudo
+ifconfig
+ping
+traceroute
+netstat
+ss
+wget
+curl
+ssh
+sftp
+ip
+route
