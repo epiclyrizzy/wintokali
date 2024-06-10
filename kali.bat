@@ -70,6 +70,9 @@ if "!mode!"=="kali" (
     if "!cmd!"=="dmesg" goto :dmesg
     if "!cmd!"=="reboot" goto :reboot
     if "!cmd!"=="shutdown" goto :shutdown
+    if "!cmd!"=="shutdown -r" goto :rshutdown
+    if "!cmd!"=="hack" goto :hack
+    if "!cmd!"=="creds" goto :creds
     goto :loop
 ) else (
     rem Default Windows Command Prompt commands
@@ -77,6 +80,15 @@ if "!mode!"=="kali" (
     goto :loop
 )
 
+goto loop
+
+:hack
+tree
+tree
+goto loop
+
+:rshutdown
+shutdown /i
 goto loop
 
 :devon
@@ -171,6 +183,10 @@ goto loop
 :touch
 set /p "file=Enter file name: "
 type nul > !file!
+goto loop
+
+:creds
+start https://github.com/epiclyrizzy/wintokali
 goto loop
 
 :echo
